@@ -1,0 +1,78 @@
+body {
+    background-color:lavender;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card-container {
+    display: flex;
+    gap: 50px;
+}
+.card {
+    background: pink;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(100, 100, 100, 100);
+    text-align: center;
+    width: 300px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 500%;
+    transition: transform 0.4s ease;
+}
+.card:hover{
+    transform: scale(1.02);
+}
+.profile-pic:hover {
+    transform: scale(1.2);
+}
+.profile-button {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 15px;
+    background:rebeccapurple;
+    color:pink;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;}
+
+.profile-button:hover {
+    transform: scale(1.1);
+}
+
+.profile-button:active{
+     background-color:yellowgreen;
+
+}
+.profile-button:visited{
+   background:#0168f9 ;
+} 
+strong{
+    color: rgb(77, 2, 250);
+}
+h2 {
+    
+    size: 100%;
+    color: blueviolet;
+}
+h3{
+    
+    margin: 10px,10px,10px,10px;
+    padding: 10px 15px;
+}
+p{
+    color: #0664e8;
+    size: 50px;
+}
+ul{
+    color: rgb(129, 6, 244);
+    padding: 5px;
+    list-style-position: inside;
+}
+.email:hover{
+    transform: scale(1.01)
+}
